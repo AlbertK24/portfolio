@@ -1,0 +1,67 @@
+h3{
+    color:green
+}
+
+h1, h2
+    {text-align: center;
+  }
+
+
+body{
+    margin:0px;
+    padding:0px;
+
+    /*background-image: url("images/commerce.jfif");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, blue, green);
+}
+img{
+    width:500px;
+    height:500px;
+    display: block;
+ 
+
+
+}
+
+img {
+    display: block;
+    margin-left: center;
+    margin-right: center;
+  }
+
+div{
+    height: 150px;
+    width: 150px;
+    background-color:hsla(100,50%,75%,1);
+                    
+    /*border:10px dashed red*/;
+    border-radius: 360px;
+}
+
+#div1{
+    background-color:rgba(255,0,0,1);
+}
+
+#div2{
+    background-color:rgba(2,150,255,1) ;
+    width:150px;
+    height:150px;
+    border-radius: 200px;
+}
+
+.div3{background-color: rgba(20,20,20,20);
+       background-image: url("images/commerce.jfif");
+       background-repeat: no-repeat;
+       background-position: center;
+      width:400px;
+      height:400px;
+      border: radius 200px;
+      
+
+}
+
+
+/*My CSS comment*/
