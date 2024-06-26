@@ -1,50 +1,92 @@
-h3 {
-    color: green;
+h1, h2, h3 {
+  color: green;
+  text-align: center;
 }
 
-h1, h2 {
-    text-align: center;
+.header {
+  width: 95%;
+  height: 65px;
+  margin-left: 5%;
+  margin-top: 10px;
+  border-radius: 70px;
+  background-color: indianred;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.header a {
+  color: #123;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header .profile {
+  float: right;
+}
+
+.header img {
+  width: 70px;
+  height: auto;
+}
+
+.header .links {
+  float: right;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 10px;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background-image: linear-gradient(to right, blue, green);
-    background-size: cover;
-    background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, blue, green);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 img {
-    width: 500px;
-    height: 500px;
-    display: block;
-    margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
 }
 
 div {
-    height: 150px;
-    width: 150px;
-    background-color: hsla(100, 50%, 75%, 1);
-    border-radius: 360px;
+  height: 150px;
+  width: 150px;
+  background-color: hsla(100, 50%, 75%, 1);
+  border-radius: 360px;
+  display: block;
+  margin: 0 auto;
 }
 
 #div1 {
-    background-color: rgba(255, 0, 0, 1);
+  background-color: rgba(255, 0, 0, 1);
+  display: block;
+  margin: 0 auto;
 }
 
 #div2 {
-    background-color: rgba(2, 150, 255, 1);
-    width: 150px;
-    height: 150px;
-    border-radius: 200px;
+  background-color: rgba(2, 150, 255, 1);
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+  display: block;
+  margin: 0 auto;
 }
 
 .div3 {
-    background-color: rgba(20, 20, 20, 0.2);
-    background-image: url("images/commerce.jfif");
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 400px;
-    height: 400px;
-    border-radius: 200px;
+  background-color: rgba(20, 20, 20, 0.2);
+  background-image: url("images/commerce.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  display: block;
+  margin: 0 auto;
 }
