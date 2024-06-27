@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+    height: auto;
+    background-color: red;
+    margin-top: 20px;
+
+}
+
+.container div{  
+    width:200px;
+    height:200px;
+    background-color:green;
+}

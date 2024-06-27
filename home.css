@@ -1,25 +1,31 @@
 h1, h2 {
   color: green;
   text-align: center;
+
 }
 
-.header {
+body{
+  margin: 0px;
+}
+
+.header{
   width: 95%;
   height: 65px;
   margin-left: 5%;
   margin-top: 10px;
   border-radius: 70px;
   background-color: green;
-  display: flex;
+  display: block;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 10px;
+  gap: 10px;
+
 }
 
 .header a {
-  color: #123;
+  color: rgb(14, 124, 235);
   text-decoration: none;
   font-size: 18px;
+  
 }
 
 .header .profile {
@@ -39,6 +45,7 @@ h1, h2 {
   align-items: center;
   gap: 10px;
   margin-right: 10px;
+  color:white;
 
 }
 
@@ -54,7 +61,7 @@ nav {
 }
 
 body {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   background-image: linear-gradient(to right, blue, green);
   background-repeat: no-repeat;
