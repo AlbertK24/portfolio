@@ -9,6 +9,7 @@ h1,  {
     margin-left: 5%;
     margin-top: 10px;
     border-radius: 70px;
+    position: relative;
     background-color: silver;
     display: flex;
     align-items: center;
@@ -24,7 +25,10 @@ h1,  {
   
   .header .profile {
     float: right;
-  }
+    position: absolute;
+  right: 10px; /* Adjust the value as needed */
+}
+  
   
   .header img {
     width: 70px;

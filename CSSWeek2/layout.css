@@ -11,3 +11,20 @@
     height:200px;
     background-color:green;
 }
+
+.container .class7{background-color: yellow;
+display: flex;
+gap: 10px;
+align-items: center;
+justify-content: space-between;
+}
+
+.container .class7 p{
+    background-color: blue;
+    height: 50px;
+    color: #fff;
+   
+ 
+
+}
+
